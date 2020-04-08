@@ -46,3 +46,1044 @@ Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
   [1m[35mSQL (0.6ms)[0m  DELETE FROM "students" WHERE "students"."id" = ?  [["id", 2]]
   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
   [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students"
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 16:32:49 -0700[0m
+[[1;30;49mDEBUG[0m]   [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mRails::WelcomeController#index[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"internal"=>true}
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb[0m [0;30;49m12.9ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 77ms [0;30;49m(Views: 56.8ms | ActiveRecord: 0.0ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 16:43:38 -0700[0m
+[[1;30;49mDEBUG[0m]   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+[[0;37;41mFATAL[0m] [0;31;49mActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):[0m
+[[0;37;41mFATAL[0m] [0;31;49mactiverecord (5.0.7.1) lib/active_record/migration.rb:573:in `check_pending!'
+activerecord (5.0.7.1) lib/active_record/migration.rb:549:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.8) lib/rack/handler/webrick.rb:86:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb[0m [0;30;49m4.4ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m2.4ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m1.4ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;31;49m160.3ms[0m
+[[1;30;49mDEBUG[0m]   [1m[35m (2.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+[[1;30;49mDEBUG[0m]   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+[INFO ] Migrating to CreateSchoolClasses (20200407234305)
+[[1;30;49mDEBUG[0m]   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+[[1;30;49mDEBUG[0m]   [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "school_classes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "room_number" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+[[1;30;49mDEBUG[0m]   [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200407234305"]]
+[[1;30;49mDEBUG[0m]   [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+[[1;30;49mDEBUG[0m]   [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+[[1;30;49mDEBUG[0m]   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+[[1;30;49mDEBUG[0m]   [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-04-07 23:44:21.153234"], ["updated_at", "2020-04-07 23:44:21.153234"]]
+[[1;30;49mDEBUG[0m]   [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+[[1;30;49mDEBUG[0m]   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 16:44:43 -0700[0m
+[[1;30;49mDEBUG[0m]   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mRails::WelcomeController#index[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"internal"=>true}
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb[0m [0;30;49m7.0ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 14ms [0;30;49m(Views: 10.5ms | ActiveRecord: 0.0ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 16:45:39 -0700[0m
+[[1;30;49mDEBUG[0m]   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mRails::WelcomeController#index[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"internal"=>true}
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb[0m [0;30;49m9.2ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 69ms [0;30;49m(Views: 47.7ms | ActiveRecord: 0.0ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 16:58:55 -0700[0m
+[[1;30;49mDEBUG[0m]   [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+[[0;37;41mFATAL[0m] [0;31;49mAbstractController::ActionNotFound (The action 'new' could not be found for SchoolClassesController):[0m
+[[0;37;41mFATAL[0m] [0;31;49mactionpack (5.0.7.1) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.7.1) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.1) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.8) lib/rack/etag.rb:25:in `call'
+rack (2.0.8) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.8) lib/rack/head.rb:12:in `call'
+rack (2.0.8) lib/rack/session/abstract/id.rb:259:in `context'
+rack (2.0.8) lib/rack/session/abstract/id.rb:253:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.1) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.8) lib/rack/handler/webrick.rb:86:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;30;49m41.7ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/create" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 16:59:04 -0700[0m
+[[0;37;41mFATAL[0m] [0;31;49mAbstractController::ActionNotFound (The action 'show' could not be found for SchoolClassesController):[0m
+[[0;37;41mFATAL[0m] [0;31;49mactionpack (5.0.7.1) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.7.1) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.1) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.8) lib/rack/etag.rb:25:in `call'
+rack (2.0.8) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.8) lib/rack/head.rb:12:in `call'
+rack (2.0.8) lib/rack/session/abstract/id.rb:259:in `context'
+rack (2.0.8) lib/rack/session/abstract/id.rb:253:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.1) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.8) lib/rack/handler/webrick.rb:86:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;30;49m0.4ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 16:59:08 -0700[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionController::RoutingError (No route matches [GET] "/school_classes"):[0m
+[[0;37;41mFATAL[0m] [0;31;49mactionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.8) lib/rack/handler/webrick.rb:86:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m2.5ms[0m
+[INFO ]   Rendered collection of /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [12 times] (18.6ms)
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb[0m [0;30;49m23.4ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m31.2ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;31;49m197.0ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 17:05:09 -0700[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionController::RoutingError (No route matches [GET] "/school_classes"):[0m
+[[0;37;41mFATAL[0m] [0;31;49mactionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.8) lib/rack/handler/webrick.rb:86:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m5.4ms[0m
+[INFO ]   Rendered collection of /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [12 times] (13.1ms)
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb[0m [0;30;49m2.3ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m1.7ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;31;49m110.2ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 17:07:30 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#new[0m as [0;33;49mHTML[0m
+[INFO ] Completed [0;31;49m500 Internal Server Error[0m in 3ms [0;30;49m(ActiveRecord: 0.0ms)[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionView::MissingTemplate (Missing template school_classes/form, application/form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/JR/Development/code/rails-form_for-lab-austin-web-030920/app/views"
+):[0m
+[[0;37;41mFATAL[0m] [0;31;49mapp/controllers/school_classes_controller.rb:4:in `new'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb[0m [0;30;49m8.5ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m1.7ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m1.0ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;33;49m71.9ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 17:18:29 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering school_classes/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m6.1ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in [0;31;49m729ms[0m [0;30;49m(Views: 722.4ms | ActiveRecord: 0.0ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 17:27:44 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering school_classes/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m10.9ms[0m
+[INFO ] Completed [0;31;49m500 Internal Server Error[0m in 40ms [0;30;49m(ActiveRecord: 0.0ms)[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionView::Template::Error (First argument in form cannot contain nil or be empty):[0m
+[[0;37;41mFATAL[0m] [0;31;49m    1: <h1>School Class Form</h1>
+    2: <%= form_for(@class) do |f| %>
+    3:   <%= f.text_field 'school_class_title' %>
+    4:   <%= f.text_field 'school_class_room_number' %>
+    5:   <%= f.submit 'Create School Class' %>[0m
+[[0;37;41mFATAL[0m] [0;31;49mapp/views/school_classes/form.html.erb:2:in `_app_views_school_classes_form_html_erb__1229476240618501913_70234754791060'
+app/controllers/school_classes_controller.rb:4:in `new'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb[0m [0;30;49m44.2ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m4.3ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m1.1ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;31;49m179.4ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 17:33:05 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering school_classes/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m6.7ms[0m
+[INFO ] Completed [0;31;49m500 Internal Server Error[0m in 15ms [0;30;49m(ActiveRecord: 0.0ms)[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionView::Template::Error (First argument in form cannot contain nil or be empty):[0m
+[[0;37;41mFATAL[0m] [0;31;49m    1: <h1>School Class Form</h1>
+    2: <%= form_for @class do |f| %>
+    3:   <%= f.text_field 'school_class_title' %>
+    4:   <%= f.text_field 'school_class_room_number' %>
+    5:   <%= f.submit 'Create School Class' %>[0m
+[[0;37;41mFATAL[0m] [0;31;49mapp/views/school_classes/form.html.erb:2:in `_app_views_school_classes_form_html_erb__1229476240618501913_70234784509660'
+app/controllers/school_classes_controller.rb:4:in `new'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb[0m [0;30;49m10.0ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m2.1ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m1.6ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;33;49m92.6ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 17:54:01 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering school_classes/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m5.9ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 112ms [0;30;49m(Views: 71.4ms | ActiveRecord: 2.8ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/1/show" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 17:54:17 -0700[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionController::RoutingError (No route matches [GET] "/school_classes/1/show"):[0m
+[[0;37;41mFATAL[0m] [0;31;49mactionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.8) lib/rack/handler/webrick.rb:86:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m2.5ms[0m
+[INFO ]   Rendered collection of /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [12 times] (103.0ms)
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb[0m [0;30;49m2.5ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m2.6ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;31;49m199.3ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/1" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 17:54:37 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (0.6ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[INFO ] Completed [0;33;49m404 Not Found[0m in 18ms [0;30;49m(ActiveRecord: 0.6ms)[0m
+[[0;37;41mFATAL[0m] [0;31;49mActiveRecord::RecordNotFound (Couldn't find SchoolClass with 'id'=1):[0m
+[[0;37;41mFATAL[0m] [0;31;49mapp/controllers/school_classes_controller.rb:18:in `show'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb[0m [0;30;49m17.1ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m2.5ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m1.4ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;33;49m88.7ms[0m
+[INFO ] [1;32;49mPOST   [0m[1;37;49m "/school_classes" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:44:24 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#create[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"fMLhWxDkQBiOepBxxIOq1G/FzMqC6vZ5E+FbXqvmmgecZ57dLntfiVxNHVaX5eQRGgK03UszdF20mZT3AzB3FQ==", "school_class"=>{"title"=>"New", "room_number"=>"Class"}, "commit"=>"Create School class"}
+[[1;30;49mDEBUG[0m]   [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+[[1;30;49mDEBUG[0m]   [1m[35mSQL (3.7ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "room_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "New"], ["room_number", 0], ["created_at", "2020-04-08 01:44:24.623357"], ["updated_at", "2020-04-08 01:44:24.623357"]]
+[[1;30;49mDEBUG[0m]   [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+[INFO ] Redirected to http://localhost:3000/school_classes/1
+[INFO ] Completed [0;32;49m302 Found[0m in 120ms [0;30;49m(ActiveRecord: 14.4ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/1" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:44:24 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (0.3ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[INFO ]   Rendering school_classes/show.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/show.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m7.6ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 163ms [0;30;49m(Views: 139.9ms | ActiveRecord: 0.2ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:44:33 -0700[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionController::RoutingError (No route matches [GET] "/school_classes"):[0m
+[[0;37;41mFATAL[0m] [0;31;49mactionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.8) lib/rack/handler/webrick.rb:86:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m2.8ms[0m
+[INFO ]   Rendered collection of /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [12 times] (18.1ms)
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb[0m [0;30;49m6.5ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m4.8ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;31;49m151.5ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:44:39 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering school_classes/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m9.9ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 86ms [0;30;49m(Views: 85.5ms | ActiveRecord: 0.0ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:45:52 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering school_classes/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m7.1ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 69ms [0;30;49m(Views: 67.9ms | ActiveRecord: 0.0ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:46:27 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering school_classes/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m6.3ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 79ms [0;30;49m(Views: 77.6ms | ActiveRecord: 0.0ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:46:47 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering school_classes/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m8.5ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 129ms [0;30;49m(Views: 128.4ms | ActiveRecord: 0.0ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:47:00 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering school_classes/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m3.1ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 132ms [0;30;49m(Views: 129.1ms | ActiveRecord: 0.0ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/1" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:47:27 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (0.2ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[INFO ]   Rendering school_classes/show.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/show.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m0.7ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 65ms [0;30;49m(Views: 61.4ms | ActiveRecord: 0.2ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/1/edit" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:47:33 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#edit[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (0.2ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[INFO ]   Rendering school_classes/edit.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/edit.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m5.5ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 128ms [0;30;49m(Views: 125.0ms | ActiveRecord: 0.2ms)[0m
+[INFO ] [1;32;49mPATCH  [0m[1;37;49m "/school_classes/1" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:47:48 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#update[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"iZ5qLKms2BQOAtObAcK1sk/Vn5/39NfqgLkdTnaS6RhpOxWqlzPHhdw1XrxSpPt3OhLniD4tVc4nwdLn3kQECg==", "school_class"=>{"title"=>"New", "room_number"=>"Cl"}, "commit"=>"Update School class", "id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (0.2ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[[1;30;49mDEBUG[0m]   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+[[1;30;49mDEBUG[0m]   [1m[35mSQL (1.6ms)[0m  [1m[33mUPDATE "school_classes" SET "room_number" = ?, "updated_at" = ? WHERE "school_classes"."id" = ?[0m  [["room_number", 0], ["updated_at", "2020-04-08 01:47:48.779726"], ["id", 1]]
+[[1;30;49mDEBUG[0m]   [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+[INFO ] Redirected to http://localhost:3000/school_classes/1
+[INFO ] Completed [0;32;49m302 Found[0m in 15ms [0;30;49m(ActiveRecord: 5.8ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/1" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:47:48 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (0.2ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[INFO ]   Rendering school_classes/show.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/show.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m1.6ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 109ms [0;30;49m(Views: 103.8ms | ActiveRecord: 0.2ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/1/edit" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:47:56 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#edit[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (0.5ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[INFO ]   Rendering school_classes/edit.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/edit.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m3.2ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 47ms [0;30;49m(Views: 43.8ms | ActiveRecord: 0.5ms)[0m
+[INFO ] [1;32;49mPATCH  [0m[1;37;49m "/school_classes/1" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:48:01 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#update[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"ndPAaUgW0FXfIVcSqAiW4MfLOPc7jiuz7KYF6bCGXE99dr/vdonPxA0W2jX7btglsgxA4PJXqZdL3spAGFCxXQ==", "school_class"=>{"title"=>"New", "room_number"=>"one"}, "commit"=>"Update School class", "id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (0.1ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[[1;30;49mDEBUG[0m]   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+[[1;30;49mDEBUG[0m]   [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "school_classes" SET "room_number" = ?, "updated_at" = ? WHERE "school_classes"."id" = ?[0m  [["room_number", 0], ["updated_at", "2020-04-08 01:48:01.325972"], ["id", 1]]
+[[1;30;49mDEBUG[0m]   [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+[INFO ] Redirected to http://localhost:3000/school_classes/1
+[INFO ] Completed [0;32;49m302 Found[0m in 14ms [0;30;49m(ActiveRecord: 7.2ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/1" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:48:01 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (0.5ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[INFO ]   Rendering school_classes/show.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/show.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m0.6ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 54ms [0;30;49m(Views: 49.9ms | ActiveRecord: 0.5ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/1/edit" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:48:55 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#edit[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (0.2ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[INFO ]   Rendering school_classes/edit.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/edit.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m1.9ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 58ms [0;30;49m(Views: 55.1ms | ActiveRecord: 0.2ms)[0m
+[INFO ] [1;32;49mPATCH  [0m[1;37;49m "/school_classes/1" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:49:00 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#update[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"QLJ/H1Zai0Q71JfTnqtsalEt3UiF52lzKLnlH8gBRGagFwCZaMWU1enjGvTNzSKvJOqlX0w+61ePwSq2YNepdA==", "school_class"=>{"title"=>"Old", "room_number"=>"two"}, "commit"=>"Update School class", "id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (0.3ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[[1;30;49mDEBUG[0m]   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+[[1;30;49mDEBUG[0m]   [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "school_classes" SET "title" = ?, "room_number" = ?, "updated_at" = ? WHERE "school_classes"."id" = ?[0m  [["title", "Old"], ["room_number", 0], ["updated_at", "2020-04-08 01:49:00.315810"], ["id", 1]]
+[[1;30;49mDEBUG[0m]   [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+[INFO ] Redirected to http://localhost:3000/school_classes/1
+[INFO ] Completed [0;32;49m302 Found[0m in 12ms [0;30;49m(ActiveRecord: 2.8ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/1" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:49:00 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (2.2ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[INFO ]   Rendering school_classes/show.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/show.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m0.5ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 72ms [0;30;49m(Views: 62.9ms | ActiveRecord: 2.2ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/1/edit" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:49:04 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#edit[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (0.1ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[INFO ]   Rendering school_classes/edit.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/edit.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m2.4ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 75ms [0;30;49m(Views: 73.7ms | ActiveRecord: 0.1ms)[0m
+[INFO ] [1;32;49mPATCH  [0m[1;37;49m "/school_classes/1" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:51:49 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#update[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzmmrjKsVskj+4jUPHAb/bapVQAuRMcyxsdLdzSDqEz7nNkoDDNJWPHMBfNvFlU4w24tF+edRRZhv4TenFVFXg==", "school_class"=>{"title"=>"Old", "room_number"=>"oka"}, "commit"=>"Update School class", "id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (0.8ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[[1;30;49mDEBUG[0m]   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+[[1;30;49mDEBUG[0m]   [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "school_classes" SET "room_number" = ?, "updated_at" = ? WHERE "school_classes"."id" = ?[0m  [["room_number", 0], ["updated_at", "2020-04-08 01:51:49.646905"], ["id", 1]]
+[[1;30;49mDEBUG[0m]   [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+[INFO ] Redirected to http://localhost:3000/school_classes/1
+[INFO ] Completed [0;32;49m302 Found[0m in 13ms [0;30;49m(ActiveRecord: 2.9ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/1" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:51:49 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (0.2ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[INFO ]   Rendering school_classes/show.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/show.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m0.6ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 94ms [0;30;49m(Views: 85.4ms | ActiveRecord: 0.2ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/1/edit" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 18:51:55 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#edit[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (0.2ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[INFO ]   Rendering school_classes/edit.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/edit.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m1.7ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 120ms [0;30;49m(Views: 118.9ms | ActiveRecord: 0.2ms)[0m
+[INFO ] [1;32;49mPATCH  [0m[1;37;49m "/school_classes/1" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 19:46:57 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#update[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"9fnjlslWoKEZSCT4Iz31A2paBog+gZ7/7KoiY6EUrRMVXJwQ98m/MMt/qd9wW7vGH51+n/dYHNtL0u3KCcJAAQ==", "school_class"=>{"title"=>"Old", "room_number"=>"0"}, "commit"=>"Update School class", "id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (2.7ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[[1;30;49mDEBUG[0m]   [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+[[1;30;49mDEBUG[0m]   [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+[INFO ] Redirected to http://localhost:3000/school_classes/1
+[INFO ] Completed [0;32;49m302 Found[0m in 39ms [0;30;49m(ActiveRecord: 3.3ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/school_classes/1" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 19:46:57 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mSchoolClassesController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"1"}
+[[1;30;49mDEBUG[0m]   [1m[36mSchoolClass Load (0.2ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[INFO ]   Rendering school_classes/show.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mschool_classes/show.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m6.4ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 118ms [0;30;49m(Views: 106.5ms | ActiveRecord: 0.2ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/student/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 19:59:28 -0700[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionController::RoutingError (No route matches [GET] "/student/new"):[0m
+[[0;37;41mFATAL[0m] [0;31;49mactionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.8) lib/rack/handler/webrick.rb:86:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m2.1ms[0m
+[INFO ]   Rendered collection of /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [12 times] (16.7ms)
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb[0m [0;30;49m3.9ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m22.8ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;31;49m121.8ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 19:59:45 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering students/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m29.3ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 134ms [0;30;49m(Views: 88.5ms | ActiveRecord: 7.8ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:00:40 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering students/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m20.8ms[0m
+[INFO ] Completed [0;31;49m500 Internal Server Error[0m in 31ms [0;30;49m(ActiveRecord: 0.0ms)[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionView::Template::Error (undefined method `student_first_name' for #<Student:0x00007fc19f38d520>):[0m
+[[0;37;41mFATAL[0m] [0;31;49m    1: <h1>Student Form</h1>
+    2: <%= form_for @student do |f| %>
+    3:     <label>First Name</label>
+    4:     <%= f.text_field 'student_first_name' %>
+    5: 
+    6:     <label>Last Name</label>
+    7:     <%= f.text_field 'student_last_name'%>[0m
+[[0;37;41mFATAL[0m] [0;31;49mapp/views/students/form.html.erb:4:in `block in _app_views_students_form_html_erb__4383029703790981729_70234755708080'
+app/views/students/form.html.erb:2:in `_app_views_students_form_html_erb__4383029703790981729_70234755708080'
+app/controllers/students_controller.rb:14:in `new'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb[0m [0;30;49m9.7ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m2.6ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m1.1ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;31;49m114.0ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:00:53 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering students/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m19.0ms[0m
+[INFO ] Completed [0;31;49m500 Internal Server Error[0m in 25ms [0;30;49m(ActiveRecord: 0.0ms)[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionView::Template::Error (undefined method `student_first_name' for #<Student:0x00007fc19f0cd8d0>):[0m
+[[0;37;41mFATAL[0m] [0;31;49m    1: <h1>Student Form</h1>
+    2: <%= form_for @student do |f| %>
+    3:     <label>First Name</label>
+    4:     <%= f.text_field :'student_first_name' %>
+    5: 
+    6:     <label>Last Name</label>
+    7:     <%= f.text_field :'student_last_name'%>[0m
+[[0;37;41mFATAL[0m] [0;31;49mapp/views/students/form.html.erb:4:in `block in _app_views_students_form_html_erb__4383029703790981729_70234786982020'
+app/views/students/form.html.erb:2:in `_app_views_students_form_html_erb__4383029703790981729_70234786982020'
+app/controllers/students_controller.rb:14:in `new'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb[0m [0;30;49m8.0ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m2.6ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m2.3ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;30;49m37.5ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:01:07 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering students/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m17.6ms[0m
+[INFO ] Completed [0;31;49m500 Internal Server Error[0m in 21ms [0;30;49m(ActiveRecord: 0.0ms)[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionView::Template::Error (undefined method `student_first_name' for #<Student:0x00007fc19ef3a0e0>):[0m
+[[0;37;41mFATAL[0m] [0;31;49m    1: <h1>Student Form</h1>
+    2: <%= form_for @student do |f| %>
+    3:     <label>First Name</label>
+    4:     <%= f.text_field :student_first_name %>
+    5: 
+    6:     <label>Last Name</label>
+    7:     <%= f.text_field :student_last_name %>[0m
+[[0;37;41mFATAL[0m] [0;31;49mapp/views/students/form.html.erb:4:in `block in _app_views_students_form_html_erb__4383029703790981729_70234786087900'
+app/views/students/form.html.erb:2:in `_app_views_students_form_html_erb__4383029703790981729_70234786087900'
+app/controllers/students_controller.rb:14:in `new'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb[0m [0;30;49m8.4ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m5.0ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m1.3ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;30;49m42.8ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:03:21 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering students/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m24.6ms[0m
+[INFO ] Completed [0;31;49m500 Internal Server Error[0m in 33ms [0;30;49m(ActiveRecord: 0.0ms)[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionView::Template::Error (undefined method `student_first_name' for #<Student:0x00007fc19ecbfae0>):[0m
+[[0;37;41mFATAL[0m] [0;31;49m    1: <h1>Student Form</h1>
+    2: <%= form_for @student do |f| %>
+    3:     <label>First Name</label>
+    4:     <%= f.text_field :student_first_name %>
+    5: 
+    6:     <label>Last Name</label>
+    7:     <%= f.text_field :student_last_name %>[0m
+[[0;37;41mFATAL[0m] [0;31;49mapp/views/students/form.html.erb:4:in `block in _app_views_students_form_html_erb__4383029703790981729_70234784788160'
+app/views/students/form.html.erb:2:in `_app_views_students_form_html_erb__4383029703790981729_70234784788160'
+app/controllers/students_controller.rb:14:in `new'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb[0m [0;30;49m25.7ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m1.7ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m1.4ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;33;49m87.7ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:03:44 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering students/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m20.0ms[0m
+[INFO ] Completed [0;31;49m500 Internal Server Error[0m in 71ms [0;30;49m(ActiveRecord: 0.0ms)[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionView::Template::Error (undefined method `student_first_name' for #<Student:0x00007fc19f5d2b50>):[0m
+[[0;37;41mFATAL[0m] [0;31;49m    1: <h1>Student Form</h1>
+    2: <%= form_for @student do |f| %>
+    3:     <label>First Name</label>
+    4:     <%= f.text_field :"student_first_name" %>
+    5: 
+    6:     <label>Last Name</label>
+    7:     <%= f.text_field :"student_last_name" %>[0m
+[[0;37;41mFATAL[0m] [0;31;49mapp/views/students/form.html.erb:4:in `block in _app_views_students_form_html_erb__4383029703790981729_70234789546220'
+app/views/students/form.html.erb:2:in `_app_views_students_form_html_erb__4383029703790981729_70234789546220'
+app/controllers/students_controller.rb:14:in `new'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb[0m [0;30;49m12.9ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m2.6ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m1.1ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;33;49m53.7ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:05:03 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering students/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m21.3ms[0m
+[INFO ] Completed [0;31;49m500 Internal Server Error[0m in 26ms [0;30;49m(ActiveRecord: 0.0ms)[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionView::Template::Error (undefined method `student[:first_name]' for #<Student:0x00007fc19eee3ad8>):[0m
+[[0;37;41mFATAL[0m] [0;31;49m    1: <h1>Student Form</h1>
+    2: <%= form_for @student do |f| %>
+    3:     <label>First Name</label>
+    4:     <%= f.text_field 'student[:first_name]' %>
+    5: 
+    6:     <label>Last Name</label>
+    7:     <%= f.text_field :student_last_name %>[0m
+[[0;37;41mFATAL[0m] [0;31;49mapp/views/students/form.html.erb:4:in `block in _app_views_students_form_html_erb__4383029703790981729_70234785910880'
+app/views/students/form.html.erb:2:in `_app_views_students_form_html_erb__4383029703790981729_70234785910880'
+app/controllers/students_controller.rb:14:in `new'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb[0m [0;30;49m7.9ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m1.5ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m2.3ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;33;49m59.4ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:06:04 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering students/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m23.2ms[0m
+[INFO ] Completed [0;31;49m500 Internal Server Error[0m in 29ms [0;30;49m(ActiveRecord: 0.0ms)[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionView::Template::Error (undefined method `student_first_name' for #<Student:0x00007fc19b48e040>):[0m
+[[0;37;41mFATAL[0m] [0;31;49m    1: <h1>Student Form</h1>
+    2: <%= form_for @student do |f| %>
+    3:     <label>First Name</label>
+    4:     <%= f.text_field 'student_first_name' %>
+    5: 
+    6:     <label>Last Name</label>
+    7:     <%= f.text_field :'student_last_name'%>[0m
+[[0;37;41mFATAL[0m] [0;31;49mapp/views/students/form.html.erb:4:in `block in _app_views_students_form_html_erb__4383029703790981729_70234755349700'
+app/views/students/form.html.erb:2:in `_app_views_students_form_html_erb__4383029703790981729_70234755349700'
+app/controllers/students_controller.rb:14:in `new'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb[0m [0;30;49m7.7ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m2.7ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m0.9ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;30;49m49.1ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:07:42 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering students/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m5.7ms[0m
+[INFO ] Completed [0;31;49m500 Internal Server Error[0m in 11ms [0;30;49m(ActiveRecord: 0.0ms)[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionView::Template::Error (undefined method `' for #<Student:0x00007fc1a08974e8>):[0m
+[[0;37;41mFATAL[0m] [0;31;49m    1: <h1>Student Form</h1>
+    2: <%= form_for @student do |f| %>
+    3:     <label>First Name</label>
+    4:     <%= f.text_field :student['first_name'] %>
+    5: 
+    6:     <label>Last Name</label>
+    7:     <%= f.text_field :'student_last_name'%>[0m
+[[0;37;41mFATAL[0m] [0;31;49mapp/views/students/form.html.erb:4:in `block in _app_views_students_form_html_erb__4383029703790981729_70234799385940'
+app/views/students/form.html.erb:2:in `_app_views_students_form_html_erb__4383029703790981729_70234799385940'
+app/controllers/students_controller.rb:14:in `new'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb[0m [0;30;49m8.5ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m17.8ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m1.6ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;33;49m78.9ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:07:57 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering students/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m5.3ms[0m
+[INFO ] Completed [0;31;49m500 Internal Server Error[0m in 12ms [0;30;49m(ActiveRecord: 0.0ms)[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionView::Template::Error (no implicit conversion of Symbol into Integer):[0m
+[[0;37;41mFATAL[0m] [0;31;49m    1: <h1>Student Form</h1>
+    2: <%= form_for @student do |f| %>
+    3:     <label>First Name</label>
+    4:     <%= f.text_field :student[:first_name] %>
+    5: 
+    6:     <label>Last Name</label>
+    7:     <%= f.text_field :'student_last_name'%>[0m
+[[0;37;41mFATAL[0m] [0;31;49mapp/views/students/form.html.erb:4:in `[]'
+app/views/students/form.html.erb:4:in `block in _app_views_students_form_html_erb__4383029703790981729_70234788837460'
+app/views/students/form.html.erb:2:in `_app_views_students_form_html_erb__4383029703790981729_70234788837460'
+app/controllers/students_controller.rb:14:in `new'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb[0m [0;30;49m18.9ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m5.3ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m6.8ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;33;49m95.4ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/new" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:10:40 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#new[0m as [0;33;49mHTML[0m
+[INFO ]   Rendering students/form.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/form.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m2.3ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 70ms [0;30;49m(Views: 68.9ms | ActiveRecord: 0.0ms)[0m
+[INFO ] [1;32;49mPOST   [0m[1;37;49m "/students" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:22:01 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#create[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZAwW641MswiR5gB4ZpHXonIqQRTSE87djHtWLrtrB+mEqWlts9OsmUPRjV8195lnB+05AxvKTPkrA5mHE73q+w==", "student"=>{"first_name"=>"Lawrence", "last_name"=>"Jackson"}, "commit"=>"Create Student"}
+[[1;30;49mDEBUG[0m]   [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+[[1;30;49mDEBUG[0m]   [1m[35mSQL (4.7ms)[0m  [1m[32mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Lawrence"], ["last_name", "Jackson"], ["created_at", "2020-04-08 03:22:01.664727"], ["updated_at", "2020-04-08 03:22:01.664727"]]
+[[1;30;49mDEBUG[0m]   [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+[INFO ] Redirected to http://localhost:3000/students/3
+[INFO ] Completed [0;32;49m302 Found[0m in 44ms [0;30;49m(ActiveRecord: 12.1ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/3" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:22:01 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"3"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[INFO ]   Rendering students/show.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/show.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m0.9ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 109ms [0;30;49m(Views: 78.4ms | ActiveRecord: 0.4ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/3/edit" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:22:08 -0700[0m
+[[0;37;41mFATAL[0m] [0;31;49mAbstractController::ActionNotFound (The action 'edit' could not be found for StudentsController):[0m
+[[0;37;41mFATAL[0m] [0;31;49mactionpack (5.0.7.1) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.7.1) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.1) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.8) lib/rack/etag.rb:25:in `call'
+rack (2.0.8) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.8) lib/rack/head.rb:12:in `call'
+rack (2.0.8) lib/rack/session/abstract/id.rb:259:in `context'
+rack (2.0.8) lib/rack/session/abstract/id.rb:253:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.1) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.8) lib/rack/handler/webrick.rb:86:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;30;49m0.5ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/3/edit" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:32:08 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#edit[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"3"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.5ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[INFO ]   Rendering students/edit.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/edit.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m6.9ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 110ms [0;30;49m(Views: 71.2ms | ActiveRecord: 3.1ms)[0m
+[INFO ] [1;32;49mPATCH  [0m[1;37;49m "/students/3" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:32:10 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#update[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"BeE5BcKYsz6yInI5N3D+l/7r1uMtoocKcjDnajqpXaPlREaD/Aesr2AV/x5kFrBSiyyu9OR7BS7VSCjDkn+wsQ==", "student"=>{"first_name"=>"Lawrence", "last_name"=>"Jackson"}, "commit"=>"Update Student", "id"=>"3"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (2.3ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[[1;30;49mDEBUG[0m]   [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+[[1;30;49mDEBUG[0m]   [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+[INFO ] Redirected to http://localhost:3000/students/3
+[INFO ] Completed [0;32;49m302 Found[0m in 14ms [0;30;49m(ActiveRecord: 3.0ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/3" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:32:10 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"3"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[INFO ]   Rendering students/show.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/show.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m0.6ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 66ms [0;30;49m(Views: 59.4ms | ActiveRecord: 0.2ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/3/edit" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:32:15 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#edit[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"3"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[INFO ]   Rendering students/edit.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/edit.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m2.1ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 64ms [0;30;49m(Views: 61.2ms | ActiveRecord: 0.2ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/3/edit" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:32:47 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#edit[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"3"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.3ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[INFO ]   Rendering students/edit.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/edit.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m2.3ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 99ms [0;30;49m(Views: 96.2ms | ActiveRecord: 0.3ms)[0m
+[INFO ] [1;32;49mPATCH  [0m[1;37;49m "/students/3" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:32:51 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#update[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"f7MafujN5SclUzaCu6sxlVzsGn2BVfKuxYmrhwTUcLefFmX41lL6tvdku6XozX9QKStiakiMcIpi8WQurAKdpQ==", "student"=>{"first_name"=>"Lawrence", "last_name"=>"Johnson"}, "commit"=>"Update Student", "id"=>"3"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[[1;30;49mDEBUG[0m]   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+[[1;30;49mDEBUG[0m]   [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "students" SET "last_name" = ?, "updated_at" = ? WHERE "students"."id" = ?[0m  [["last_name", "Johnson"], ["updated_at", "2020-04-08 03:32:51.092369"], ["id", 3]]
+[[1;30;49mDEBUG[0m]   [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+[INFO ] Redirected to http://localhost:3000/students/3
+[INFO ] Completed [0;32;49m302 Found[0m in 14ms [0;30;49m(ActiveRecord: 3.0ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/3" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:32:51 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"3"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.3ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[INFO ]   Rendering students/show.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/show.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m2.0ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 45ms [0;30;49m(Views: 41.4ms | ActiveRecord: 0.3ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/3/edit" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:32:54 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#edit[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"3"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[INFO ]   Rendering students/edit.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/edit.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m4.6ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 58ms [0;30;49m(Views: 52.9ms | ActiveRecord: 0.2ms)[0m
+[INFO ] [1;32;49mPATCH  [0m[1;37;49m "/students/3" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:33:03 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#update[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"Vvbknreq584wdWOu3KTwMXYM2o/nS1TtHeQX9SUdMym2U5sYiTX4X+JC7omPwr70A8uimC6S1sm6nNhcjcveOw==", "student"=>{"first_name"=>"Lawrence", "last_name"=>"Jackson"}, "commit"=>"Update Student", "id"=>"3"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[[1;30;49mDEBUG[0m]   [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+[[1;30;49mDEBUG[0m]   [1m[35mSQL (1.5ms)[0m  [1m[33mUPDATE "students" SET "last_name" = ?, "updated_at" = ? WHERE "students"."id" = ?[0m  [["last_name", "Jackson"], ["updated_at", "2020-04-08 03:33:03.342515"], ["id", 3]]
+[[1;30;49mDEBUG[0m]   [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+[INFO ] Redirected to http://localhost:3000/students/3
+[INFO ] Completed [0;32;49m302 Found[0m in 16ms [0;30;49m(ActiveRecord: 6.2ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/3" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:33:03 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"3"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[INFO ]   Rendering students/show.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/show.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m0.6ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 66ms [0;30;49m(Views: 61.9ms | ActiveRecord: 0.2ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:33:05 -0700[0m
+[[0;37;41mFATAL[0m] [0;31;49mActionController::RoutingError (No route matches [GET] "/students"):[0m
+[[0;37;41mFATAL[0m] [0;31;49mactionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.8) lib/rack/handler/webrick.rb:86:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/JR/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m1.0ms[0m
+[INFO ]   Rendered collection of /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [12 times] (13.6ms)
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb[0m [0;30;49m1.6ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m5.6ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;33;49m91.3ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/2" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:33:08 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"2"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+[INFO ] Completed [0;33;49m404 Not Found[0m in 3ms [0;30;49m(ActiveRecord: 0.2ms)[0m
+[[0;37;41mFATAL[0m] [0;31;49mActiveRecord::RecordNotFound (Couldn't find Student with 'id'=2):[0m
+[[0;37;41mFATAL[0m] [0;31;49mapp/controllers/students_controller.rb:18:in `show'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb[0m [0;30;49m5.5ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m1.9ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m1.5ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;33;49m54.7ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/3" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:33:11 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"3"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[INFO ]   Rendering students/show.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/show.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m0.7ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 55ms [0;30;49m(Views: 51.5ms | ActiveRecord: 0.2ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/4" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:33:14 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"4"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.3ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+[INFO ] Completed [0;33;49m404 Not Found[0m in 3ms [0;30;49m(ActiveRecord: 0.3ms)[0m
+[[0;37;41mFATAL[0m] [0;31;49mActiveRecord::RecordNotFound (Couldn't find Student with 'id'=4):[0m
+[[0;37;41mFATAL[0m] [0;31;49mapp/controllers/students_controller.rb:18:in `show'[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb[0m [0;30;49m5.1ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb[0m [0;30;49m2.2ms[0m
+[INFO ]   Rendering /Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb[0m [0;30;49m1.1ms[0m
+[INFO ] [0;30;49m  Rendered [0m[1;30;49m/Users/JR/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb[0m [0;30;49mwithin [0m[1;30;49mrescues/layout[0m [0;30;49m36.6ms[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/3" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:33:52 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"3"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[INFO ]   Rendering students/show.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/show.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m0.5ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 72ms [0;30;49m(Views: 65.0ms | ActiveRecord: 0.2ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/3/edit" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:33:56 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#edit[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"3"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[INFO ]   Rendering students/edit.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/edit.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m1.9ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 42ms [0;30;49m(Views: 40.1ms | ActiveRecord: 0.2ms)[0m
+[INFO ] [1;32;49mPATCH  [0m[1;37;49m "/students/3" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:33:59 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#update[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"qbNStX4V26xgBRNCOsvDXlQAVjhxHUXXqGTLf4fY/tBJFi0zQIrEPbIynmVprY2bIccuL7jEx/MPHATWLw4Twg==", "student"=>{"first_name"=>"JR", "last_name"=>"Jackson"}, "commit"=>"Update Student", "id"=>"3"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[[1;30;49mDEBUG[0m]   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+[[1;30;49mDEBUG[0m]   [1m[35mSQL (3.4ms)[0m  [1m[33mUPDATE "students" SET "first_name" = ?, "updated_at" = ? WHERE "students"."id" = ?[0m  [["first_name", "JR"], ["updated_at", "2020-04-08 03:33:59.143093"], ["id", 3]]
+[[1;30;49mDEBUG[0m]   [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+[INFO ] Redirected to http://localhost:3000/students/3
+[INFO ] Completed [0;32;49m302 Found[0m in 12ms [0;30;49m(ActiveRecord: 5.8ms)[0m
+[INFO ] [1;32;49mGET    [0m[1;37;49m "/students/3" [0m for [0;33;49m1[0m[0;30;49m  at 2020-04-07 20:33:59 -0700[0m
+[INFO ] [0;35;49m===[0m Processing by [0;35;49mStudentsController#show[0m as [0;33;49mHTML[0m
+[INFO ]   Parameters: {"id"=>"3"}
+[[1;30;49mDEBUG[0m]   [1m[36mStudent Load (0.5ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[INFO ]   Rendering students/show.html.erb within layouts/application
+[INFO ] [0;30;49m  Rendered [0m[1;30;49mstudents/show.html.erb[0m [0;30;49mwithin [0m[1;30;49mlayouts/application[0m [0;30;49m0.7ms[0m
+[INFO ] Completed [0;32;49m200 OK[0m in 75ms [0;30;49m(Views: 69.3ms | ActiveRecord: 0.5ms)[0m
